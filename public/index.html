@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wassup Chat App</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js"></script>
+</head>
+<body>
+  <section class="chat__section">
+    <div class="brand">
+      <img height="40" src="chatroom.png" alt="Wassup Chat" />
+      <h1>chat room</h1>
+    </div>
+
+    <!-- 🟢 Online Users Button -->
+    <div id="onlineStatus" style="margin: 10px 0;">
+      <button id="onlineCountBtn">🟢 0 People Online</button>
+      <ul id="userList" style="display: none; margin-top: 10px;"></ul>
+    </div>
+
+    <!-- 💬 Message Display Area -->
+    <div class="message__area"></div>
+
+    <!-- 😊 Emoji Picker -->
+    <emoji-picker id="picker" style="display: none;"></emoji-picker>
+    <button onclick="toggleEmojiPicker()">😊</button>
+
+    <!-- 📷 Image Upload -->
+    <input type="file" id="imageInput" accept="image/*" />
+
+   
+
+    <!-- ✉️ Message Input + Send (Form) -->
+    <form id="chatForm" style="display: flex; gap: 10px; margin-top: 10px;">
+      <input type="text" id="messageInput" placeholder="Type your message..." style="flex: 1;" required />
+     <label for="videoInput" style="cursor: pointer; margin-left: 10px;">📹 Upload Video</label>
+<input type="file" id="videoInput" accept="video/*" style="display: none;" />
+
+
+      <button id="sendBtn" type="submit">Send</button>
+    </form>
+  </section>
+
+
+
+
+
+
+
+
+
+<footer class="simple-footer">
+  <p>© 2025 All rights reserved by <strong>techvibeswithvishal</strong></p>
+</footer>
+
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+
+  
+</body>
+</html>
