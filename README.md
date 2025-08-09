@@ -29,4 +29,3 @@ pictures=
 
 <img width="1366" height="768" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/3e6291db-12ef-4a8b-af2b-d037440dbb0b" />
 
-<img width="1366" height="768" alt="Screenshot (144)" src="https://github.com/user-attachments/assets/d4acbd0d-12e7-47ac-a381-cf57f7535167" />
