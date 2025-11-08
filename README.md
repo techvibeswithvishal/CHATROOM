@@ -1,4 +1,12 @@
 💬 Chatroom App
+🌐 API Integration Task — CODTECH Internship 
+company name: CODTECH IT SOLUTIONS PVT.LTD
+Name :vishal singh 
+Intern ID:CT04DR343
+domain : Full Stack Web Development 
+Durations : 4 weeks Mentor: Neela Santhosh Kumar
+
+
 
 A real-time chat application built with **Express.js** and **Socket.IO**, allowing users to send **messages, emojis, photos, and videos** instantly.  
 This project is designed for seamless communication and a smooth user experience.
