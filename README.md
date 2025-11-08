@@ -1,5 +1,5 @@
 💬 Chatroom App
-🌐 ;ive chat app — CODTECH Internship ,
+🌐 live chat app — CODTECH Internship ,
 company name: CODTECH IT SOLUTIONS PVT.LTD,
 Name :vishal singh ,
 Intern ID:CT04DR343,
