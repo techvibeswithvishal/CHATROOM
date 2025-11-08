@@ -1,5 +1,5 @@
 💬 Chatroom App
-🌐 API Integration Task — CODTECH Internship ,
+🌐 ;ive chat app — CODTECH Internship ,
 company name: CODTECH IT SOLUTIONS PVT.LTD,
 Name :vishal singh ,
 Intern ID:CT04DR343,
